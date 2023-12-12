@@ -1,12 +1,14 @@
 import numpy as np
 import pandas as pd
+!pip install mlxtend 
+!pip install matplotlib 
+!pip install seaborn
+!pip install datetime 
+import seaborn as sns
 import streamlit as st
+import matplotlib as plt
 from mlxtend.frequent_patterns import association_rules, apriori
 from datetime import datetime
-
-
-
-
 
 
 data_bread= pd.read_csv(r'C:\Users\fakhr\Desktop\vsCode\bread basket.csv')
