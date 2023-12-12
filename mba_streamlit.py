@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import seaborn as sns
 import streamlit as st
 from mlxtend.frequent_patterns import association_rules, apriori
 from datetime import datetime
