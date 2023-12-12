@@ -6,7 +6,7 @@ import streamlit as st
 from mlxtend.frequent_patterns import association_rules, apriori
 from datetime import datetime
 
-data_bread= pd.read_csv(r'C:\Users\fakhr\Desktop\vsCode\bread basket.csv')
+data_bread= pd.read_csv('bread basket.csv')
 
 import pandas as pd
 
